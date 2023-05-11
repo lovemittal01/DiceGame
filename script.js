@@ -94,4 +94,44 @@ if (num1 > num2) {
 } else {
     document.querySelector(".headline").innerText = "Game Draw!"
 
+    switch (num1) {
+        case 1:
+            document.querySelector(".rolled1").src = "1.png";
+            break;
+        case 2:
+            document.querySelector(".rolled1").src = "2.png";
+            break;
+        case 3:
+            document.querySelector(".rolled1").src = "3.png";
+            break;
+        case 4:
+            document.querySelector(".rolled1").src = "4.png";
+            break;
+        case 5:
+            document.querySelector(".rolled1").src = "5.png";
+            break;
+        case 6:
+            document.querySelector(".rolled1").src = "6.png";
+            break;
+    }
+    switch (num2) {
+        case 1:
+            document.querySelector(".rolled2").src = "1.png";
+            break;
+        case 2:
+            document.querySelector(".rolled2").src = "2.png";
+            break;
+        case 3:
+            document.querySelector(".rolled2").src = "3.png";
+            break;
+        case 4:
+            document.querySelector(".rolled2").src = "4.png";
+            break;
+        case 5:
+            document.querySelector(".rolled2").src = "5.png";
+            break;
+        case 6:
+            document.querySelector(".rolled2").src = "6.png";
+            break;
+    }
 }
